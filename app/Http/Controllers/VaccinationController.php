@@ -37,6 +37,8 @@ class VaccinationController extends Controller
         $vaccination->pcv_at_6_weeks = $request->input('pcv_at_6_weeks');
         $vaccination->pcv_at_10_weeks = $request->input('pcv_at_10_weeksd');
         $vaccination->pcv_at_14_weeks = $request->input('pcv_at_14_weeks');
+        $vaccination->rota1 = $request->input('rota1');
+
         $vaccination->yellow_fever_at_9_months = $request->input('yellow_fever_at_9_months');
         $vaccination->measles_at_9_months = $request->input('measles_fever_at_9_months');
 

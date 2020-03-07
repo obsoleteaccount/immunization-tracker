@@ -28,7 +28,7 @@
             <div class="card-body">
                 <div class="form-row">
                     <div class="col-md-4">
-                        <label for="firstname">First Name*</label>
+                        <label for="firstname">Father First Name*</label>
                         <input type="text" name="firstname" class="form-control @error('firstname') is-invalid @enderror" id="firstname" value="{{ old('firstname') }}" required autocomplete="firstname" autofocus>
                             @error('firstname')
                                 <span class="invalid-feedback" role="alert">
@@ -37,7 +37,7 @@
                             @enderror
                     </div>
                     <div class="col-md-4">
-                        <label>Last Name*</label>
+                        <label>Father Last Name*</label>
                         <input type="text" name="lastname" class="form-control @error('lastname') is-invalid @enderror" id="lastname" value="{{ old('lastname') }}" required autocomplete="lastname" autofocus>
                             @error('lastname')
                                 <span class="invalid-feedback" role="alert">
@@ -46,7 +46,7 @@
                             @enderror
                     </div>
                     <div class="col-md-4">
-                        <label>Surname*</label>
+                        <label>Father Surname*</label>
                         <input type="text" name="surname" class="form-control @error('surname') is-invalid @enderror" id="surname" value="{{ old('surname') }}" required autocomplete="surname" autofocus>
                             @error('surname')
                                 <span class="invalid-feedback" role="alert">
@@ -56,6 +56,26 @@
                     </div>
                 </div>
                 <br>
+                   <div class="form-row">
+                    <div class="col-md-4">
+                        <label for="mother_firstname">Mother First Name*</label>
+                        <input type="text" name="mother_firstname" class="form-control @error('mother_firstname') is-invalid @enderror" id="mother_firstname" value="{{ old('mother_firstname') }}" required autocomplete="mother_firstname" autofocus>
+                            @error('mother_firstname')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                    </div>
+                    <div class="col-md-4">
+                        <label>Mother Surname*</label>
+                        <input type="text" name="mother_surname" class="form-control @error('mother_surname') is-invalid @enderror" id="mother_surname" value="{{ old('mother_surname') }}" required autocomplete="mother_surname" autofocus>
+                            @error('mother_surname')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                    </div>
+                </div>
                 <div class="form-row">
                     <div class="col-md-4">
                         <label>Phone Number*</label>

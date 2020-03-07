@@ -6,7 +6,7 @@
     <br><header>
         <div class="banner">
             <br>
-            <h1 Class="whitetitle">MamaFair</h1>
+            <h1 Class="whitetitle">Vaxeen</h1>
         </div>
     </header><br>
     @if( Session::has("success") )

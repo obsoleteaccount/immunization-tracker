@@ -50,8 +50,17 @@
                         </div>
                         <div class="col-md-4">
                             <label>Surname</label>
-                            <input type="text" name="surname" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$parent->surname}}>
+                            <input type="text" name="surname" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$parent->surname}}>              
                         </div>
+
+                         <div class="col-md-4">
+                            <label>Mother Firstname</label>
+                            <input type="text" name="mother_firstname" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$parent->mother_firstname}}>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Mother Surname</label>
+                            <input type="text" name="mother_surname" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$parent->mother_surname}}>
+                        </div> 
                     </div>
                     <br>
                     <div class="form-row">

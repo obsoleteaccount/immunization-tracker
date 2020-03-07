@@ -33,6 +33,14 @@
                                 <label>Surname</label>
                                 <p class="card-text">{{ $parent->surname}}</p>
                             </div>
+                            <div class="col-md-4">
+                                <label>Mother Firstname</label>
+                                <p class="card-text">{{ $parent->mother_firstname}}</p>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Mother Surname</label>
+                                <p class="card-text">{{ $parent->mother_surname}}</p>
+                            </div>
                         </div>
                         <br>
                         <div class="form-row">

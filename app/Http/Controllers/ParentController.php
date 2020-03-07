@@ -30,6 +30,8 @@ class ParentController extends Controller
         $parent->record_date = $request->input('record_date');
         $parent->firstname = $request->input('firstname');
         $parent->lastname = $request->input('lastname');
+        $parent->mother_firstname = $request->input('mother_firstname');
+        $parent->mother_surname = $request->input('mother_surname');
         $parent->surname = $request->input('surname');
         $parent->phone = $request->input('phone');
         $parent->email = $request->input('email');

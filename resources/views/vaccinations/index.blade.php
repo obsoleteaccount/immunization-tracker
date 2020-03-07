@@ -28,7 +28,7 @@
         <div class="col-md-8">
             @if (session('record-created'))
                 <div class="alert alert-dark alert-dismissible fade show" role="alert">
-                    <strong>The record has been successfuly created</strong>
+                    <strong>Record successfully created</strong>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -41,7 +41,7 @@
         <div class="col-md-8">
             @if (session('record-updated'))
                 <div class="alert alert-dark alert-dismissible fade show" role="alert">
-                    <strong>The record has been successfuly updated</strong>
+                    <strong>Record successfully updated</strong>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -65,8 +65,8 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Parent's Full Name</th>
-                    <th>Child's Full Name</th>
+                    <th>Parent's Names</th>
+                    <th>Child's Names</th>
                     <th>Gender</th>
                         <th>Child ID</th>
                     <th class="text-center">Actions</th>

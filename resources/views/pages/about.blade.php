@@ -6,15 +6,15 @@
         <header>
             <div class="banner">
                 <br>
-                <h1 Class="whitetitle">About MamaFair</h1>
+                <h1 Class="whitetitle">Vaxeen</h1>
             </div>
         </header><br>
         <div class="about-div">
 			<div class="about">
 				<hr>
-				<p style="font-size:1.875em; ">What is MamaFair ?</p>
+				<p style="font-size:1.875em; ">Vaxeen</p>
 				<hr>
-				<p style=" max-width:720px; font-size:1.38em;">Mama Fair is a web application that is aimed at improving maternal health care services and eventually reducing the maternal and infant mortality rate.</p>
+				<p style=" max-width:720px; font-size:1.38em;">Web app serving as an online immunization registry.</p>
 			</div>
 		</div><br>
 		<div class="row">

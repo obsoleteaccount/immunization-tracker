@@ -44,5 +44,12 @@ class ParentController extends Controller
         return view('vaccinations.createchild')->with('parent_id', $parent_id);
 
     }
+        public function delete(Request $request, $id)
+    {
+        $parent = parents::findOrFail($id); 
+        $parent->delete();
+        session()->flash('record-deleted');
+        return redirect('vaccinations');
+    }
 
 }

@@ -36,5 +36,12 @@ class ChildController extends Controller
 
         return view('vaccinations.create')->with('child_id', $child_id);
     }
+        public function delete(Request $request, $id)
+    {
+        $child = child::findOrFail($id); 
+        $child->delete();
+        session()->flash('record-deleted');
+        return redirect('vaccinations');
+    }
 
 }

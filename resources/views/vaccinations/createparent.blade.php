@@ -108,6 +108,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="about-div">
             <div class="button-container">
                 <a style="margin:20px;" href="{{ url()->previous() }}" class="btn btn-primary">Back</a>  

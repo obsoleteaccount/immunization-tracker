@@ -28,6 +28,8 @@ Route::get('/vaccinations/edit/vaccination{id}/child{child_id}/parent{parent_id}
 Route::get('/vaccinations/view/vaccination{id}/child{child_id}/parent{parent_id}', 'VaccinationController@view')->name('view');
 
 Route::get('/vaccinations/delete/{id}', 'VaccinationController@delete')->name('delete');
+Route::get('/vaccinations/delete/{id}', 'ParentController@delete')->name('delete');
+Route::get('/vaccinations/delete/{id}', 'ChildController@delete')->name('delete');
 
 Route::post('/vaccinations/update/{id}', 'VaccinationController@update')->name('update');
 

@@ -33,14 +33,15 @@ class VaccinationController extends Controller
         $vaccination->opv_at_14_weeks = $request->input('opv_at_14_weeks');
         $vaccination->dpt_at_6_weeks = $request->input('dpt_at_6_weeks');
         $vaccination->dpt_at_10_weeks = $request->input('dpt_at_10_weeks');
-        $vaccination->dpt_at_14_weeks = $request->input('pt_at_14_weeks');
+        $vaccination->dpt_at_14_weeks = $request->input('dpt_at_14_weeks');
         $vaccination->pcv_at_6_weeks = $request->input('pcv_at_6_weeks');
-        $vaccination->pcv_at_10_weeks = $request->input('pcv_at_10_weeksd');
+        $vaccination->pcv_at_10_weeks = $request->input('pcv_at_10_weeks');
         $vaccination->pcv_at_14_weeks = $request->input('pcv_at_14_weeks');
         $vaccination->rota1 = $request->input('rota1');
+        $vaccination->rota2 = $request->input('rota2');
 
         $vaccination->yellow_fever_at_9_months = $request->input('yellow_fever_at_9_months');
-        $vaccination->measles_at_9_months = $request->input('measles_fever_at_9_months');
+        $vaccination->measles_at_9_months = $request->input('measles_at_9_months');
 
         
         $vaccination->save();

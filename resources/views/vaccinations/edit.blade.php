@@ -144,6 +144,7 @@
                             <label>Rota1</label>
                             <input type="date" name="rota1" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->rota1}}>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -151,17 +152,21 @@
                 <div class="card-header">10 Weeks</div>
                 <div class="card-body">
                 <div class="form-row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>OPV</label>
                             <input type="date" name="opv_at_10_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->opv_at_10_weeks}}>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>DPT</label>
                             <input type="date" name="dpt_at_10_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->dpt_at_10_weeks}}>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>PCV</label>
                             <input type="date" name="pcv_at_10_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->pcv_at_6_weeks}}>
+                        </div>
+                        <div class="col-md-3">
+                            <label>Rota2</label>
+                            <input type="date" name="rota1" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->rota2}}>
                         </div>
                     </div>
                 </div>

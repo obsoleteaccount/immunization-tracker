@@ -60,17 +60,21 @@
             <div class="card-header">10 Weeks</div>
             <div class="card-body">
                <div class="form-row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>OPV</label>
                         <input type="date" name="opv_at_10_weeks" class="form-control" id="opv_at_10_weeks" autocomplete="date" autofocus>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>DPT</label>
                         <input type="date" name="dpt_at_10_weeks" class="form-control" id="dpt_at_10_weeks" autocomplete="date" autofocus>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>PCV</label>
                         <input type="date" name="pcv_at_10_weeks" class="form-control" id="pcv_at_10_weeks" autocomplete="date" autofocus>
+                    </div>
+                    <div class="col-md-3">
+                        <label>Rota2</label>
+                        <input type="date" name="rota2" class="form-control" id="rota1" autocomplete="date" autofocus>
                     </div>
                 </div>
             </div>

@@ -39,6 +39,10 @@ class VaccinationController extends Controller
         $vaccination->pcv_at_14_weeks = $request->input('pcv_at_14_weeks');
         $vaccination->rota1 = $request->input('rota1');
         $vaccination->rota2 = $request->input('rota2');
+        $vaccination->ipv = $request->input('ipv');
+        $vaccination->vitamina = $request->input('vitamina');
+        $vaccination->fullyimmunized = $request->input('fullyimmunized');
+        $vaccination->measles2 = $request->input('measles2');
 
         $vaccination->yellow_fever_at_9_months = $request->input('yellow_fever_at_9_months');
         $vaccination->measles_at_9_months = $request->input('measles_at_9_months');

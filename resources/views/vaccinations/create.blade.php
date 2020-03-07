@@ -84,17 +84,21 @@
             <div class="card-header">14 Weeks</div>
             <div class="card-body">
                <div class="form-row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>OPV</label>
                         <input type="date" name="opv_at_14_weeks" class="form-control" id="opv_at_14_weeks" autocomplete="date" autofocus>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>DPT</label>
                         <input type="date" name="dpt_at_14_weeks" class="form-control" id="dpt_at_14_weeks" autocomplete="date" autofocus>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>PCV</label>
                         <input type="date" name="pcv_at_14_weeks" class="form-control" id="pcv_at_14_weeks" autocomplete="date" autofocus>
+                    </div>
+                    <div class="col-md-3">
+                        <label>IPV</label>
+                        <input type="date" name="ipv" class="form-control" id="ipv" autocomplete="date" autofocus>
                     </div>
                 </div>
             </div>
@@ -112,6 +116,26 @@
                         <label>Yellow Fever</label>
                         <input type="date" name="yellow_fever_at_9_months" class="form-control" id="yellow_fever_at_9_months" autocomplete="date" autofocus>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="card border-dark mb-3">
+            <div class="card-header">Final</div>
+            <div class="card-body">
+               <div class="form-row">
+                    <div class="col-md-4">
+                        <label>Vitamin A</label>
+                        <input type="date" name="vitamina" class="form-control" id="vitamina" autocomplete="date" autofocus>
+                    </div>
+                    <div class="col-md-4">
+                        <label>Fully Immunized Child</label>
+                        <input type="date" name="fullyimmunized" class="form-control" id="fullyimmunized" autocomplete="date" autofocus>
+                    </div>
+                    <div class="col-md-4">
+                        <label>Measles 2</label>
+                        <input type="date" name="measles2" class="form-control" id="measles2" autocomplete="date" autofocus>
+                    </div>
+            
                 </div>
             </div>
         </div>

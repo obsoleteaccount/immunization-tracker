@@ -175,17 +175,21 @@
                 <div class="card-header">14 Weeks</div>
                 <div class="card-body">
                 <div class="form-row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>OPV</label>
                             <input type="date" name="opv_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->opv_at_14_weeks}}>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>DPT</label>
-                            <input type="date" name="dpt_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->dpt_at_10_weeks}}>
+                            <input type="date" name="dpt_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->dpt_at_14_weeks}}>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <label>PCV</label>
-                            <input type="date" name="pcv_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->pcv_at_10_weeks}}>
+                            <input type="date" name="pcv_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->pcv_at_14_weeks}}>
+                        </div>
+                        <div class="col-md-3">
+                            <label>IPV</label>
+                            <input type="date" name="pcv_at_14_weeks" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->ipv}}>
                         </div>
                     </div>
                 </div>
@@ -202,6 +206,28 @@
                             <label>Yellow Fever</label>
                             <input type="date" name="yellow_fever_at_9_months" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->yellow_fever_at_9_months}}>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-dark mb-3">
+              <div class="card-header">Final</div>
+                <div class="card-body">
+                   <div class="form-row">
+                        <div class="col-md-4">
+                            <label>Vitamin A</label>
+                            <input type="date" name="vitamina" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->vitamina}}>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label>Fully Immunized Child</label>
+                            <input type="date" name="fullyimmunized" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->fullyimmunized}}>
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <label>Measles 2</label>
+                            <input type="date" name="fullyimmunized" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value={{$vaccination->measles2}}>                          
+                        </div>
+                
                     </div>
                 </div>
             </div>

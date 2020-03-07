@@ -98,7 +98,7 @@
                                 <p class="card-text">{{ $vaccination->bcg_at_birth}}</p>
                             </div>
                             <div class="col-md-6">
-                                <label>Oral Polio Vaccine</label>
+                                <label>Polio Birth Dose</label>
                                 <p class="card-text">{{ $vaccination->opv_at_birth}}</p>
                             </div>
                         </div>
@@ -108,17 +108,21 @@
                     <div class="card-header">6 Weeks</div>
                     <div class="card-body">
                         <div class="form-row">
-                            <div class="col-md-4">
-                                <label>Oral Polio Vaccine</label>
+                            <div class="col-md-3">
+                                <label>OPV 1</label>
                                 <p class="card-text">{{ $vaccination->opv_at_6_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>DPT</label>
+                            <div class="col-md-3">
+                                <label>DPT 2</label>
                                 <p class="card-text">{{ $vaccination->dpt_at_6_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>Pneumococcal Vaccine</label>
+                            <div class="col-md-3">
+                                <label>PCV 1</label>
                                 <p class="card-text">{{ $vaccination->pcv_at_6_weeks}}</p>
+                            </div>
+                            <div class="col-md-3">
+                                <label>Rota 1</label>
+                                <p class="card-text">{{ $vaccination->rota1}}</p>
                             </div>
                         </div>
                     </div>
@@ -127,17 +131,21 @@
                     <div class="card-header">10 Weeks</div>
                     <div class="card-body">
                         <div class="form-row">
-                            <div class="col-md-4">
-                                <label>Oral Polio Vaccine</label>
+                            <div class="col-md-3">
+                                <label>OPV 2</label>
                                 <p class="card-text">{{ $vaccination->opv_at_10_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>DPT</label>
+                            <div class="col-md-3">
+                                <label>DPT 2</label>
                                 <p class="card-text">{{ $vaccination->dpt_at_10_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>Pneumococcal Vaccine</label>
+                            <div class="col-md-3">
+                                <label>PCV 2</label>
                                 <p class="card-text">{{ $vaccination->pcv_at_10_weeks}}</p>
+                            </div>
+                            <div class="col-md-">
+                                <label>Rota 2</label>
+                                <p class="card-text">{{ $vaccination->rota2}}</p>
                             </div>
                         </div>
                     </div>
@@ -146,18 +154,22 @@
                     <div class="card-header">14 Weeks</div>
                     <div class="card-body">
                         <div class="form-row">
-                            <div class="col-md-4">
-                                <label>Oral Polio Vaccine</label>
+                            <div class="col-md-3">
+                                <label>OPV 3</label>
                                 <p class="card-text">{{ $vaccination->opv_at_14_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>DPT</label>
+                            <div class="col-md-3">
+                                <label>DPT 3</label>
                                 <p class="card-text">{{ $vaccination->dpt_at_14_weeks}}</p>
                             </div>
-                            <div class="col-md-4">
-                                <label>Pneumococcal Vaccine</label>
+                            <div class="col-md-3">
+                                <label>PCV 3</label>
                                 <p class="card-text">{{ $vaccination->pcv_at_14_weeks}}</p>
                             </div>
+                            <div class="col-md-3">
+                                <label>IPV</label>
+                                <p class="card-text">{{ $vaccination->ipv}}</p>
+                            </div
                         </div>
                     </div>
                 </div>
@@ -176,6 +188,26 @@
                         </div>
                     </div>               
                 </div> 
+                <div class="card mb-3">
+                    <div class="card-header">Final</div>
+                    <div class="card-body">
+                        <div class="form-row">
+                            <div class="col-md-4">
+                                <label>Vitamin A</label>
+                                <p class="card-text">{{ $vaccination->vitamina}}</p>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <label>Fully Immunized Child</label>
+                                <p class="card-text">{{ $vaccination->fullyimmunized}}</p>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Measles 2</label>
+                                <p class="card-text">{{ $vaccination->measles2}}</p>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
             </div>
         
             <div class="about-div">
